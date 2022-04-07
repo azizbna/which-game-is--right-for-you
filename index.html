@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Egor project</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
@@ -64,7 +64,7 @@
             <div class="answers">
                 <label class="form-control" for="a41"><input type="radio" name="q4" id="a41" value="5,SIMS,CIV,MC"> A way to relax</label>
                 <!--+5 Sims, civ,MC-->
-                <label class="form-control" for="a42"><input type="radio" name="q4" id="a42" value="5,CSGO"> Esports competition</label>
+                <label class="form-control" for="a42"><input type="radio" name="q4" id="a42" value="5,CSGO"> Competitive</label>
                 <!--+5 Siege-->
                 <label class="form-control" for="a43"><input type="radio" name="q4" id="a43" value="5,DET"> Way to learn something new</label>
                 <!--+5 Det-->
@@ -73,7 +73,7 @@
 
         <fieldset class="question">
             <legend>
-                <h3><b>Question 5:</b> Will you be able to make a decision in a difficult moral choice?</h3>
+                <h3><b>Question 5:</b> Will you be able to make a decision when given difficult choice?</h3>
             </legend>
             <div class="answers">
                 <label class="form-control" for="a51"><input type="radio" name="q5" id="a51" value="5,DET,CSGO"> I can</label>
@@ -99,33 +99,27 @@
 
         <fieldset class="question">
             <legend>
-                <h3><b>Question 7:</b> Do you like the open world (freedom of action) or corridor games (following clear instructions)?</h3>
+                <h3><b>Question 7:</b> Do you like open world games ?</h3>
             </legend>
             <div class="answers">
-                <label class="form-control" for="a71"><input type="radio" name="q7" id="a71" value="5,SIMS,MC,CIV,CSGO"> Open world</label>
+                <label class="form-control" for="a71"><input type="radio" name="q7" id="a71" value="5,SIMS,MC,CIV"> Yes</label>
                 <!--+5 All expt Det-->
-                <label class="form-control" for="a72"><input type="radio" name="q7" id="a72" value="5,DET"> Corridor games</label>
-                <!--+5 Det-->
+                <label class="form-control" for="a72"><input type="radio" name="q7" id="a72" value="5,DET,CSGO"> No</label>
+                <!--+5 Det CSGO-->
             </div>
         </fieldset>
-        <!--
-            1. Detroit (interactive cinema)
-            2. MINECRAFT (creativity)
-            3. CIVILIZATION VI (strategy)
-            4. RAINBOW SIX SIEGE (team tactics)
-            5.SIMS 4(life simulator)
-        -->
+
         <fieldset class="question">
             <legend>
                 <h3><b>Question 8:</b> Do you like to control multiple characters or just one?</h3>
             </legend>
             <div class="answers">
                 <label class="form-control" for="a81"><input type="radio" name="q8" id="a81"
-                        value="5,DET,CSGO,CIV,SIMS"> Several</label>
-                <!--+5 Det CSGO Civ Sims-->
-                <label class="form-control" for="a82"><input type="radio" name="q8" id="a82" value="5,MC,SIMS">
+                        value="5,DET,CIV,SIMS"> Several</label>
+                <!--+5 Det SIMS Civ -->
+                <label class="form-control" for="a82"><input type="radio" name="q8" id="a82" value="5,MC,CSGO">
                     One</label>
-                <!--+5 MC Sims-->
+                <!--+5 MC CSGO-->
             </div>
         </fieldset>
 
@@ -146,9 +140,9 @@
                 <h3><b>Question 10:</b> Do you like to design and model (cities, buildings, interiors)?</h3>
             </legend>
             <div class="answers">
-                <label class="form-control" for="a101"><input type="radio" name="q10" id="a101" value="5,CIV,MC,SIMS">Yes I love building</label>
+                <label class="form-control" for="a101"><input type="radio" name="q10" id="a101" value="5,CIV,MC,SIMS">Yes I love building stuff</label>
                 <!--+5 Civ,MC,Sims-->
-                <label class="form-control" for="a102"><input type="radio" name="q10" id="a102" value="5,DET,CSGO"> No I don't like building</label>
+                <label class="form-control" for="a102"><input type="radio" name="q10" id="a102" value="5,DET,CSGO"> No I don't like building stuff</label>
                 <!--+5 Det CSGO6-->
             </div>
         </fieldset>
