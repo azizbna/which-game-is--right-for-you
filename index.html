@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Egor project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Which game is right for you?</h1>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    </header>
+    <main>
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 1:</b> Are you over 18?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a11"><input type="radio" name="q1" id="a11" value="2,ALL"> Yes</label>
+                <!--+2 all games-->
+                <label class="form-control" for="a12"><input type="radio" name="q1" id="a12" value="1,MC,CIV,SIMS"> No</label>
+                <!--+1 all games except Detroit Siege-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 2:</b> Do you prefer stormy and exciting emotions or calm and even ones?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a21"><input type="radio" name="q2" id="a21" value="5,MC,CIV,SIMS"> Calm and uniform</label>
+                <!--+5 to minecraft, CIV, sims-->
+                <label class="form-control" for="a22"><input type="radio" name="q2" id="a22" value="5,DET,CSGO"> Stormy and exciting</label>
+                <!--+5 Detroit and Siege-->
+                <label class="form-control" for="a23"><input type="radio" name="q2" id="a23" value="5,ALL"> I want to experience all emotions</label>
+                <!--+5 All-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 3:</b> Do you like working in a team?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a31"><input type="radio" name="q3" id="a31" value="5,MC,CSGO"> Yes</label>
+                <!--+5 MC and Rainbow-->
+                <label class="form-control" for="a32"><input type="radio" name="q3" id="a32" value="5,ALL"> Ambiguous</label>
+                <!--+5 ALL-->
+                <label class="form-control" for="a33"><input type="radio" name="q3" id="a33" value="5,DET,SIMS"> No</label>
+                <!--+5 Det and Sims-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 4:</b> Do you think games are:</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a41"><input type="radio" name="q4" id="a41" value="5,SIMS,CIV,MC"> A way to relax</label>
+                <!--+5 Sims, civ,MC-->
+                <label class="form-control" for="a42"><input type="radio" name="q4" id="a42" value="5,CSGO"> Esports competition</label>
+                <!--+5 Siege-->
+                <label class="form-control" for="a43"><input type="radio" name="q4" id="a43" value="5,DET"> Way to learn something new</label>
+                <!--+5 Det-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 5:</b> Will you be able to make a decision in a difficult moral choice?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a51"><input type="radio" name="q5" id="a51" value="5,DET,CSGO"> I can</label>
+                <!--+5 Det and Siege-->
+                <label class="form-control" for="a52"><input type="radio" name="q5" id="a52" value="5,ALL"> Difficult to answer</label>
+                <!--+5 all-->
+                <label class="form-control" for="a53"><input type="radio" name="q5" id="a53" value="5,SIMS,MC"> I can't</label>
+                <!--+5 Sims MC-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 6:</b> Do you prefer watching the story or participating in it?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a61"><input type="radio" name="q6" id="a61" value="5,DET"> I like to be directly involved in the plot</label>
+                <!--+5 Det-->
+                <label class="form-control" for="a62"><input type="radio" name="q6" id="a62" value="5,ALL"> I like towatch the plot, which does not depend on my choice </label>
+                <!--+5 all-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 7:</b> Do you like the open world (freedom of action) or corridor games (following clear instructions)?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a71"><input type="radio" name="q7" id="a71" value="5,SIMS,MC,CIV,CSGO"> Open world</label>
+                <!--+5 All expt Det-->
+                <label class="form-control" for="a72"><input type="radio" name="q7" id="a72" value="5,DET"> Corridor games</label>
+                <!--+5 Det-->
+            </div>
+        </fieldset>
+        <!--
+            1. Detroit (interactive cinema)
+            2. MINECRAFT (creativity)
+            3. CIVILIZATION VI (strategy)
+            4. RAINBOW SIX SIEGE (team tactics)
+            5.SIMS 4(life simulator)
+        -->
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 8:</b> Do you like to control multiple characters or just one?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a81"><input type="radio" name="q8" id="a81"
+                        value="5,DET,CSGO,CIV,SIMS"> Several</label>
+                <!--+5 Det CSGO Civ Sims-->
+                <label class="form-control" for="a82"><input type="radio" name="q8" id="a82" value="5,MC,SIMS">
+                    One</label>
+                <!--+5 MC Sims-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 9:</b> Is the plot important to you in a computer game?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a91"><input type="radio" name="q9" id="a91" value="5,DET"> Very important, I see no point in playing without a plot </label>
+                <!--+5 Det-->
+                <label class="form-control" for="a92"><input type="radio" name="q9" id="a92" value="5,SIMS,MC,CIV,CSGO"> Not important</label>
+                <!--+5 All expt Det-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 10:</b> Do you like to design and model (cities, buildings, interiors)?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a101"><input type="radio" name="q10" id="a101" value="5,CIV,MC,SIMS">Yes I love building</label>
+                <!--+5 Civ,MC,Sims-->
+                <label class="form-control" for="a102"><input type="radio" name="q10" id="a102" value="5,DET,CSGO"> No I don't like building</label>
+                <!--+5 Det CSGO6-->
+            </div>
+        </fieldset>
+
+        <fieldset class="question">
+            <legend>
+                <h3><b>Question 11:</b> Do you like real life simulations?</h3>
+            </legend>
+            <div class="answers">
+                <label class="form-control" for="a111"><input type="radio" name="q11" id="a111" value="5,SIMS"> Yes. In
+                    them I can build a dreamy life</label>
+                <!--+5 Sims-->
+                <label class="form-control" for="a112"><input type="radio" name="q11" id="a112"
+                        value="5,MC,CIV,CSGO,DET"> No, real real life is enough for me</label>
+                <!--+5 All expt. Sims-->
+            </div>
+        </fieldset>
+
+        <div class="sub">
+            <button onclick="runs()" class="submitbut">SUBMIT</button>
+            <div id="check">Please Check your answers and try again</div>
+            <!--<input type="text" name="out" id="out" disabled
+                style="width: 500px;background: inherit;border: 2px solid white;color:white;margin-right: 5px;">-->
+        </div>
+    </main>
+</body>
+
+</html>

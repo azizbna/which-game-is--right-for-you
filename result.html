@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CHOSEN GAME</title>
+    <script src="egor.js"></script>
+    <style>
+        html,
+        body {
+            height: 99%;
+        }
+
+        body {
+            font-family: monospace;
+            background: #23272e;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .game {
+            display: none;
+            height: 500px;
+            aspect-ratio: 460/215;
+            border: 2px solid white;
+            border-radius: 50px;
+            background-color: #313131;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: soft-light;
+
+        }
+
+        img {
+            width: fit-content;
+            height: fit-content;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            border-bottom: 5px solid white;
+        }
+        p{
+            font-size: 2em;
+            padding: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body onload="getChosen()">
+    <div id="CSGO" class="game" style="background-image: url(./images/csgo.jpg);">
+        <h1>Counter Strike:Global Offensive</h1>
+        <p>
+            INSERT DESC HERE
+        </p>
+
+    </div>
+
+    <div id="CIV" class="game" style="background-image: url(./images/civ.jpg);">
+        <h1>Civilization V</h1>
+        <p>
+            INSERT DESC HERE
+        </p>
+
+    </div>
+
+    <div id="SIMS" class="game" style="background-image: url(./images/sims.jpg);">
+        <h1>Sims 4</h1>
+        <p>
+            INSERT DESC HERE
+        </p>
+
+    </div>
+
+    <div id="MC" class="game" style="background-image: url(./images/mc.jpg);">
+        <h1>Minecraft</h1>
+        <p>
+            INSERT DESC HERE
+        </p>
+
+        
+    </div>
+
+    <div id="DET" class="game" style="background-image: url(./images/detroit.jpg);">
+        <h1>Detroit Become Human</h1>
+        <p>
+            INSERT DESC HERE
+        </p>
+
+    </div>
+</body>
+
+</html>
